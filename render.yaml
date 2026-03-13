@@ -1,0 +1,10 @@
+# Render Blueprint: deploy the Spring Boot backend as a Web Service
+# Docs: https://docs.render.com/blueprint-spec
+# Put this file in your repo root. When you connect the repo to Render, use "Blueprint" to create the service from this file.
+
+services:
+  - type: web
+    name: fintech-blockchain-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend

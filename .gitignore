@@ -1,0 +1,20 @@
+# Dependencies & build output
+frontend/node_modules
+frontend/dist
+backend/target
+
+# Logs & env
+*.log
+.env
+.env.local
+.env.*.local
+
+# OS & IDE
+.DS_Store
+.idea
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# Optional: uncomment if you don't want to commit the Maven wrapper JAR
+# backend/.mvn/wrapper/maven-wrapper.jar
